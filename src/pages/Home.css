@@ -1,0 +1,113 @@
+:root {
+  --primary: #6366f1;
+  --accent: #22d3ee;
+  --bg: #020617;
+  --card: rgba(255,255,255,0.05);
+  --text: #cbd5f5;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: white;
+}
+
+.home {
+  padding: 60px 100px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--card);
+  backdrop-filter: blur(18px);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* TEXT */
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text h3 {
+  color: var(--accent);
+}
+
+.hero-text p {
+  max-width: 500px;
+  color: var(--text);
+}
+
+/* IMAGE */
+.hero-image img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px var(--accent);
+}
+
+.secondary {
+  background: rgba(255,255,255,0.08);
+}
+
+/* SECTION */
+.section {
+  margin-top: 40px;
+  padding: 25px;
+  border-radius: 15px;
+  background: var(--card);
+}
+
+.section h2 {
+  border-bottom: 2px solid var(--accent);
+}
+
+/* EDUCATION */
+.edu-card {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 10px;
+}
+
+.edu-card span {
+  color: var(--accent);
+}
+
+/* SKILLS */
+.skills span {
+  background: rgba(30,41,59,0.8);
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  display: inline-block;
+}

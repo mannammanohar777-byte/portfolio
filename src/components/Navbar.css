@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(2, 6, 23, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.navbar h2 {
+  color: white;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: #22d3ee;
+}
